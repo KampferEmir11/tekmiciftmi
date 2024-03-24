@@ -1,0 +1,74 @@
+body {
+    background-color: #08beff;
+}
+body h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    user-select: none;
+    color: #0e0e0e;
+    margin-top: 50px;
+}
+body input {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 750;
+    position: absolute;
+    margin-left: 635px;
+    margin-top: 100px;   
+}
+body .hesap {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    background-color: #ffcc57;
+    border: none;
+    border-radius: 30rem;
+    color: #fcfcfc;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 260px;
+    margin-left: 655px;
+}
+body .hesap:hover {
+    background-color: #ff5643;
+    color: #0e0e0e;
+}
+body .clear {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 30rem;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-top: 300px;
+    margin-left: 655px;
+}
+body .clear:hover {
+    background-color: red;
+    color: #fefefe;
+    border: 2px solid white;
+}
+body .yapimci {
+    position: absolute;
+    transform: translateY(-220%);
+    margin-left: 25px;
+    font-style: italic;
+    color: #fcfcfc;
+    user-select: none;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+body .result {
+    color: #fefefe;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 900px;
+    user-select: none;
+    font-style: italic;
+}
